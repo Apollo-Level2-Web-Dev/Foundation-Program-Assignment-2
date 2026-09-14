@@ -143,32 +143,29 @@ When a user clicks the **See Details** button, open a modal overlay displaying i
 
 The application must be fully responsive and provide a seamless experience across all devices:
 *  **Mobile:** Single column layout, stacked elements, touch-friendly buttons.
-*  **Tablet:** 2-3 column grid for movie cards.
 *  **Desktop:** 3-4+ column grid for movie cards, optimized spacing.
 
 ---
 
-## 📌 Submission Guidelines
+## Submission Guidelines
 
 Students must submit the following via the designated submission portal:
 
 1.  **GitHub Repository Link** *(Ensure it is public and includes a `README.md`)*.
 2.  **Live Deployment Link** *(e.g., Vercel, Netlify, GitHub Pages)*.
 
-> ⚠️ **Note:** Ensure your `.env` files are ignored in Git and your API keys are not exposed in the public repository.
+---
+
+## Assignment Deadline: (2 Days)
+
+* **60 Marks:** September 17, 2026, 11:59 PM
+* **50 Marks:** September 18, 2026, 11:59 PM
 
 ---
 
-## 📊 Grading Rubric
+## ⚠️ Plagiarism & AI Policy:
 
-| Criteria | Description | Marks |
-| :--- | :--- | :---: |
-|  **Home Page** | Navbar, Hero Banner & Footer implementation | **10** |
-|  **Listing & Search** | Movie Listing Page & Search functionality | **12** |
-|  **API & States** | API Integration, Loading, Error & Empty states | **10** |
-|  **Cards & Layout** | Reusable Movie Cards & Responsive Grid | **8** |
-|  **Details Modal** | Modal UI, Data display & Close interactions | **12** |
-|  **Responsiveness** | Mobile/Tablet/Desktop adaptability & Overall UI | **5** |
-|  **Code Quality** | Component structure, clean code, and best practices | **3** |
-| | | |
-| ** TOTAL** | | **60** |
+* **Zero Tolerance:** Plagiarism will result in **0 marks**.
+* **No Copying:** Do not copy code from peers or online sources.
+* **No AI Code:** Do not use AI generators. We actively run AI code detection tools.
+* **Original Work:** All code must be 100% your own.
