@@ -37,12 +37,12 @@ A visually attractive section to hook the user. It must include:
 │  🎬 MovieExplorer                        [ Movies ]  │
 ├──────────────────────────────────────────────────────┤
 │                                                      │
-│                 DISCOVER MOVIES                    │
+│                 DISCOVER MOVIES                      │
 │                                                      │
 │        Explore and discover your favorite            │
 │        movies from around the world.                 │
 │                                                      │
-│                 [   Explore Now ]                   │
+│                 [   Explore Now ]                    │
 │                                                      │
 ╰──────────────────────────────────────────────────────╯
 ```
@@ -89,7 +89,7 @@ Display movies using reusable Card components. Each card must include:
 │                     │
 ├─────────────────────┤
 │  Movie Title        │
-│  ⭐ 8.5  •  📅 2024 │
+│  ⭐ 8.5  •  📅2024 │
 │                     │
 │  [ See Details ]    │
 ╰─────────────────────╯
@@ -115,13 +115,13 @@ When a user clicks the **See Details** button, open a modal overlay displaying i
 │                                      [ ✕ ]   │
 ├──────────────────────────────────────────────┤
 │                                              │
-│               MOVIE BACKDROP               │
+│               MOVIE BACKDROP                 │
 │                                              │
 ├──────────────────────────────────────────────┤
 │  Movie Title                                 │
-│  ⭐ Rating: 8.5   |   📅 Release: 2024       │
+│  ⭐ Rating: 8.5   |   📅 Release: 2024      │
 │                                              │
-│  Overview:                                │
+│  Overview:                                   │
 │  Movie description goes here...              │
 │                                              │
 │                              [ ❌ Close ]    │
