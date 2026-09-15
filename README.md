@@ -69,6 +69,13 @@ Create a dedicated page where users can browse and search for movies.
 │  🔍 Search for a movie...                            │
 ╰──────────────────────────────────────────────────────╯
 ```
+### Search Shows
+
+**Endpoint:** `GET /search/shows?q=:query`
+
+**Example:**
+```bash
+GET https://api.tvmaze.com/search/shows?q=girls
 
 #### 🌐 API Integration & State Management
 Fetch movie data from your chosen **Free Movie Database API**. 
@@ -97,6 +104,18 @@ Display movies using reusable Card components. Each card must include:
 >  **Requirement:** Cards must be displayed using a **responsive CSS Grid or Flexbox layout**.
 
 ---
+
+### All Shows/Movie
+
+**Endpoint:**  
+`GET /shows`
+
+**Example:**  
+`GET https://api.tvmaze.com/shows`
+
+**Description:**  
+Fetch all available TV shows.
+
 
 ### 🎞️ 3. Movie Details Modal
 
