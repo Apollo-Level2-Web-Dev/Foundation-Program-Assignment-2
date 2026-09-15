@@ -76,6 +76,7 @@ Create a dedicated page where users can browse and search for movies.
 **Example:**
 ```bash
 GET https://api.tvmaze.com/search/shows?q=girls
+```
 
 #### 🌐 API Integration & State Management
 Fetch movie data from your chosen **Free Movie Database API**. 
@@ -111,7 +112,9 @@ Display movies using reusable Card components. Each card must include:
 `GET /shows`
 
 **Example:**  
-`GET https://api.tvmaze.com/shows`
+```bash
+GET https://api.tvmaze.com/shows
+```
 
 **Description:**  
 Fetch all available TV shows.
