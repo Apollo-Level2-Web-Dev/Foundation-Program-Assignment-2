@@ -8,7 +8,8 @@
 
 * **Core:** JavaScript, React
 * **Styling:** CSS, Tailwind CSS *(Optional but recommended)*
-* **Data:** Free Movie Database API *(e.g., OMDB, TMDB)*
+* **Data:** Free Movie Database API *(e.g., OMDB, TMDB, TVMaze)*
+* **TVMaze Doc:** [API*](https://www.tvmaze.com/api)
 
 ---
 
@@ -70,18 +71,12 @@ Create a dedicated page where users can browse and search for movies.
 ```
 
 #### 🌐 API Integration & State Management
-Fetch movie data from your chosen **Free Movie Database API**. You must gracefully handle the following states:
-
-| State | Expected Behavior / UI |
-| :--- | :--- |
-|  **Loading** | Show a spinner or "Loading movies..." text. |
-|  **Error** | Show "Something went wrong. Please try again." |
-|  **Empty** | Show "No movies found." when search yields 0 results. |
+Fetch movie data from your chosen **Free Movie Database API**. 
 
 #### 🎬 Movie Cards
 Display movies using reusable Card components. Each card must include:
 * Movie poster image.
-* Movie title.
+* Movie title/name.
 * Release year/date.
 * Rating (e.g., ⭐ 8.5).
 * A `See Details` button.
@@ -110,7 +105,7 @@ When a user clicks the **See Details** button, open a modal overlay displaying i
 **Modal Contents:**
 * Movie backdrop image or large poster.
 * Movie title.
-* Overview / Plot description.
+* Overview / Summary.
 * Rating and Release date.
 * Any additional relevant info from the API (e.g., Genre, Director).
 
